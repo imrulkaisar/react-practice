@@ -1,0 +1,42 @@
+.board {
+  max-width: 600px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+  padding: 0px;
+  border-color: rgb(177, 177, 177);
+  height: 100px;
+  width: 100px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.status {
+  padding: 20px;
+  border: 2px solid #eee;
+  font-weight: 600;
+}
+.game {
+  display: flex;
+  gap: 50px;
+}
+.game-info ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+.game-info button {
+  width: 250px;
+  background: #16c9ff;
+  color: #000000;
+}
+.game-info button:hover {
+  background-color: #03bf00;
+}
